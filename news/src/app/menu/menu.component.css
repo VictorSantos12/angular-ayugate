@@ -1,0 +1,30 @@
+body {
+    padding: 10px;
+    margin: 10px;
+}
+
+#main {
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+
+.card {
+    max-width: 400px;
+  }
+  
+  .header-image {
+    background-image: url('../../assets/AndreLima.jpg');
+    background-size: cover;
+  }
+
+button {
+    width: 60%;
+    margin: 50px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    border-radius: 8px;
+    background-color: black;
+  
+}

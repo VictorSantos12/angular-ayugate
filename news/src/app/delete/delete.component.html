@@ -1,0 +1,20 @@
+<template id="main">
+  <span>Deseja Confirmar ?</span>
+    <section id="buttons">
+       <button
+          class="Cancel"
+          mat-button
+          mat-dialog-close
+          >
+          cancelar
+       </button>
+       
+          <button
+           class="Delete"
+           mat-raised-button
+           (click) = onDelete()
+           >
+           confirmar
+       </button> 
+    </section> 
+</template>

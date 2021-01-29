@@ -1,0 +1,51 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+@media screen and (max-width: 880) {
+
+    #footer {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+#main {
+    display: grid;
+    grid-template-areas: 'nav' 'section' 'footer';
+    grid-template-rows: 10vh  85vh  5vh;
+}
+
+#nav {
+   grid-area: nav;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#section {
+    grid-area: section;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+}
+
+h4 {
+    margin: 10px;
+    color: rgb(167, 167, 167);
+}

@@ -1,0 +1,21 @@
+<section id="main">
+    <mat-card
+      *ngFor="let Noticia of new" 
+        class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="header-image">
+      </div>
+        <mat-card-title>{{ Noticia.titulo }}</mat-card-title>
+        <mat-card-subtitle>{{ Noticia.autor }}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>
+         {{ Noticia.descricao }}
+        </p>
+      </mat-card-content>
+      <edit-dialog></edit-dialog>
+      <delete-dialog></delete-dialog>
+    </mat-card>   
+  </section>
+  
+  
