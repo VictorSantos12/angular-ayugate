@@ -20,7 +20,9 @@ Angular News Project
    Angular Material (ng add @angular/material)
 
    Prebuilt theme > Indigo/Pink
+   
    Set up global Angular Material typography styles> Yes
+   
    Set up browser animations for Angular Material> Yes
 
    Run App(ng serve --open)
