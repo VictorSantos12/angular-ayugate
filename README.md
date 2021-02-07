@@ -2,29 +2,29 @@
 
 <h3>Angular News Project </h3>
 
-   <h4>Installing<br></h4>
-   >npm install -g @angular/cli)
+   ><h4>Installing<br></h4>
+    npm install -g @angular/cli)
    
-   <h4>Creating a New project</h4>
-   >ng new news
+   ><h4>Creating a New project</h4>
+    ng new news
    
-   <h4>Project Configuration:</h4>
+   ><h4>Project Configuration:</h4>
 
-   Angular routing (y)
-   Sylesheet - CSS
+    Angular routing (y)
+    Sylesheet - CSS
 
-   cd news
+    cd news
 
-   Project Dependecies: 
+    Project Dependecies: 
    
-   UI library 
+    UI library 
    
-   Angular Material (ng add @angular/material)
+    Angular Material (ng add @angular/material)
 
-   Prebuilt theme > Indigo/Pink
+    Prebuilt theme > Indigo/Pink
    
-   Set up global Angular Material typography styles> Yes
+    Set up global Angular Material typography styles> Yes
    
-   Set up browser animations for Angular Material> Yes
+    Set up browser animations for Angular Material> Yes
 
-   Run App(ng serve --open)
+    Run App(ng serve --open)
