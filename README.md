@@ -8,19 +8,13 @@
    ><h4>Creating a New project</h4>
     ng new news
    
-   ><h4>Project Configuration:</h4>
+   <h3>Project Configuration:</h3>
 
     Angular routing (y)
     Sylesheet - CSS
 
     cd news
-
-    Project Dependecies: 
-   
-    UI library 
-   
-    Angular Material (ng add @angular/material)
-
+    
     Prebuilt theme > Indigo/Pink
    
     Set up global Angular Material typography styles> Yes
@@ -28,3 +22,9 @@
     Set up browser animations for Angular Material> Yes
 
     Run App(ng serve --open)
+    
+<h3>Project Dependecies:</h3>
+   
+   ><h4>UI library (Angular Material) </h4>
+   
+    ng add @angular/material
