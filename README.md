@@ -2,11 +2,13 @@
 
 <h3>Angular News Project </h3>
 
-   >Installing 
-   ```npm install -g @angular/cli)```
-   Creating a New project (ng new news)
+   <h4>Installing<br></h4>
+   >npm install -g @angular/cli)
    
-   Project Configuration:
+   <h4>Creating a New project</h4>
+   >ng new news
+   
+   <h4>Project Configuration:</h4>
 
    Angular routing (y)
    Sylesheet - CSS
