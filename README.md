@@ -1,9 +1,9 @@
 # angular-ayugate
 
-Angular News Project 
+<h3>Angular News Project </h3>
 
-
-   Installing (npm install -g @angular/cli)
+   >Installing 
+   ```npm install -g @angular/cli)```
    Creating a New project (ng new news)
    
    Project Configuration:
