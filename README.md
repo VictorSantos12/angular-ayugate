@@ -3,7 +3,7 @@
 <h3>Angular News Project </h3>
 
    ><h4>Installing<br></h4>
-    npm install -g @angular/cli)
+    npm install -g @angular/cli
    
    ><h4>Creating a New project</h4>
     ng new news
